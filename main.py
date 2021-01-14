@@ -1,4 +1,4 @@
-def calculator(exprestion, x, y):
+def calculate(exprestion, x, y):
     if exprestion == ("add"):
         return x + y
     elif exprestion ==  ("subtract"):
@@ -8,4 +8,4 @@ def calculator(exprestion, x, y):
     elif exprestion == ("divide"):
         return x / y
 
-print(calculator("multiply", 10, 3))
+print(calculate("add", 2, 2))
